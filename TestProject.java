@@ -1,9 +1,10 @@
 package project2;
 
+//computer.java sub method
 public class TestProject {
 
-	double screenSize;
-	int screenWidth;
+	private double screenSize; // encapsulated
+	private int screenWidth; // encapsulated
 	String screenResolution;
 	String hardDiskSize;
 
@@ -16,4 +17,7 @@ public class TestProject {
 		System.out.println("First no: " + x);
 		System.out.println("Second no: " + y);
 	}
+	// setter methods (emutator)
+	// getter methods (accessor)
+	// draw the class diagram of the code in the hwk.
 }

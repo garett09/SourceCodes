@@ -14,6 +14,11 @@ public class TestClass {
 		TestProject t2 = new TestProject();
 		t2.displayTwoNums(1045, 456845);
 
+		/*
+		 * encapsulation also known as data hiding
+		 * 
+		 */
+
 	}
 
 }
