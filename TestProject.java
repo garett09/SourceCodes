@@ -14,6 +14,6 @@ public class TestProject {
 
 	void displayTwoNums(int x, int y) {
 		System.out.println("First no: " + x);
-		System.out.println("Second no" + y);
+		System.out.println("Second no: " + y);
 	}
 }

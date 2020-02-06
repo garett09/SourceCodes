@@ -9,7 +9,10 @@ public class TestClass {
 		t1.screenSize = 21;
 		t1.addTwoNums(2, 7);
 		t1.displayTwoNums(6, 7);
-		System.out.println("Resolution" + t1.screenResolution);
+		System.out.println("Resolution " + t1.screenResolution);
+
+		TestProject t2 = new TestProject();
+		t2.displayTwoNums(1045, 456845);
 
 	}
 
