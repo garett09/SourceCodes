@@ -1,0 +1,67 @@
+package com.bodymassindex;
+
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
+public class BMI {
+
+    private String name;
+    private int age;
+    private double height, weight;
+
+    BMI() {
+        System.out.println("Please input height in meters and weight in KG");
+        System.out.println();
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Name?");
+        name = input.next();
+        System.out.println("Age?");
+        age = input.nextInt();
+        System.out.println("Height in Meters");
+        height = input.nextDouble();
+        System.out.println("Weight in KG");
+        weight = input.nextDouble();
+
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public double getWeight() {
+        return this.weight;
+
+    }
+
+    public double getHeight() {
+        return this.height;
+    }
+
+    public void computation() {
+        double heightSquared = height * height;
+        double comp = this.weight / heightSquared;
+        double rounded = Math.round(comp * 1000) / 1000;
+        System.out.println("Your BMI is " + rounded);
+        if (rounded <= 18.5) {
+            System.out.println("You are underweight");
+        } else if (rounded >= 18.5 && rounded <= 24.9) {
+            System.out.println("You are normal!");
+
+        } else if (rounded >= 25 && rounded <= 29.9) {
+            System.out.println("You are overweight!");
+        } else if (rounded >= 30) {
+            System.out.println("You are obese!");
+        } else {
+            System.out.println("Wrong information!");
+        }
+    }
+
+    void display() {
+        computation();
+    }
+}
