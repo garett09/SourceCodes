@@ -1,4 +1,4 @@
-package com.bodymassindex;
+package BMI;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
@@ -42,22 +42,22 @@ public class BMI {
         return this.height;
     }
 
-    public void computation() {
+    void computation() {
         double heightSquared = height * height;
         double comp = this.weight / heightSquared;
         double rounded = Math.round(comp * 1000) / 1000;
-        System.out.println("Your BMI is " + rounded);
+        System.out.print("\t     " +"Your BMI is " + rounded);
         if (rounded <= 18.5) {
-            System.out.println("You are underweight");
+            System.out.print(" You are underweight");
         } else if (rounded >= 18.5 && rounded <= 24.9) {
-            System.out.println("You are normal!");
+            System.out.print(" You are normal!");
 
         } else if (rounded >= 25 && rounded <= 29.9) {
-            System.out.println("You are overweight!");
+            System.out.print(" You are overweight!");
         } else if (rounded >= 30) {
-            System.out.println("You are obese!");
+            System.out.print(" You are obese!");
         } else {
-            System.out.println("Wrong information!");
+            System.out.print(" Wrong information!");
         }
     }
 
@@ -65,4 +65,5 @@ public class BMI {
         computation();
     }
 }
-// paste code here
+
+    
