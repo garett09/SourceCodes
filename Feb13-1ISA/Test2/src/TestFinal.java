@@ -13,3 +13,4 @@ public class TestFinal {
 	Aircon ac2 = new Aircon(2.0, 23, "Hitatchi");
 	Aircon ac3 = new Aircon(2.0, 23, "Hitatchi");
 }
+//nanaymo
