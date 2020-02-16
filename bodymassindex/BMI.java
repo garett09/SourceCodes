@@ -1,6 +1,5 @@
 package BMI;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class BMI {
