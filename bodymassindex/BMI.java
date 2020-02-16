@@ -2,7 +2,7 @@ package BMI;
 
 import java.util.Scanner;
 
-public class BMI {
+public class BMI_Computation {
 
     private String name;
     private int age;
@@ -21,6 +21,7 @@ public class BMI {
         height = input.nextDouble();
         System.out.println("Weight in KG");
         weight = input.nextDouble();
+        input.close();
 
     }
 
