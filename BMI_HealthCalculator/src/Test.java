@@ -1,20 +1,19 @@
-
 public class Test {
 
 	public static void main(String[] args) {
 		InfoSheet sheet1 = new InfoSheet("Adrian", "Male", 19);
 		Computation sheet2 = new Computation("Abby", "Female", 21, 1.64, 64);
 		// method overloading
+		System.out.println("Name--- Age --- Gender ------- Height -------- Weight ------- BMI");
 		System.out.print(sheet1.getName());
-		System.out.print(" " + sheet1.getAge());
-		System.out.print(" " + sheet1.getGender() + "\n");
-		System.out.println(sheet2.getHeight());
-		System.out.println(sheet2.getWeight());
+		System.out.print("\t" + sheet1.getAge());
+		System.out.print("\t" + sheet1.getGender());
+		System.out.print("\t\t" + sheet2.getHeight());
+		System.out.print("\t\t" + sheet2.getWeight());
 		sheet2.computation();
 		System.out.println();
-
-		System.out.println("With method overloading ");
 		System.out.println();
+		System.out.println("With method overloading ");
 
 		sheet1.setName("Eduardo");
 		sheet1.setAge(25);
