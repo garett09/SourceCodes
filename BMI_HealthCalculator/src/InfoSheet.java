@@ -35,7 +35,7 @@ public class InfoSheet {
 	}
 
 	public void display() {
-		System.out.println("Your height and weight is proportional ");
+		System.out.println(" Your height and weight is proportional ");
 	}
 
 }
