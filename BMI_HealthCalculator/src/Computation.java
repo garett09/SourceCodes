@@ -47,6 +47,6 @@ public class Computation extends InfoSheet {
 	}
 
 	public void display() {
-		System.out.println("Your height and weight is not proportional ");
+		System.out.println(" Your height and weight is not proportional ");
 	}
 }
