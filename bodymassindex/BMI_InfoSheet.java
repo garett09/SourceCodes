@@ -1,5 +1,3 @@
-package BMI;
-
 import java.util.Scanner;
 
 public class BMI_InfoSheet {

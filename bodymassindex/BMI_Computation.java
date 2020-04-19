@@ -1,5 +1,3 @@
-package com.eduardo;
-
 public class BMI_Computation {
 	BMI_InfoSheet bmi1 = new BMI_InfoSheet();
 

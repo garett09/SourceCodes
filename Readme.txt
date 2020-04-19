@@ -1,3 +1,0 @@
-Yo!
-
-I love abby
