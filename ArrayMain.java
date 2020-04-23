@@ -1,4 +1,4 @@
-
+import java.util.Arrays;
 public class ArrayMain {
 
 	public static void main(String[] args) {
@@ -35,6 +35,51 @@ public class ArrayMain {
 		for(int new1 : original) {
 			System.out.print(new1);
 		}
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	//binary search
+		int [] nums  = new int [] {8,4,2,7,15,19,30,1,3,9,392,-50,0};
+		int numToFind = -50; //the number to find in the array
+		//linear search
+		for(int i = 0; i < nums.length;i++) {
+			int val = nums[i];
+			if(val==numToFind) {
+				System.out.println("We found the position at: " + i);
+			}
+		}
+		
+		
+		System.out.println();
+		System.out.println();
+		
+		//binary searching
+		Arrays.sort(nums);//sorting arrays 
+		System.out.println(Arrays.toString(nums));// need toString because you can't print an array in a print line
+		int position = Arrays.binarySearch(nums, numToFind); //binary searching  comparing the content of array nums and the number to find
+		System.out.println("Binary Search found it at:" + position);
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		
+		//String API Classes
+		String a = new String ("now is");
+		String b = new String ("the time");
+		String c = new String (" the");
+		//position starts at 0, length starts at 1
+		System.out.println(a.length()); //measures the length of the string including spaces
+		System.out.println(a.substring(2, 5)); //extract a portion of the string
+		System.out.println(a.charAt(4)); //used to find the character in any string position
+		System.out.println(b.startsWith("the"));//check if the it starts with the string mentioned
+		System.out.println(a.indexOf("is")); // //searches the index of the string a
+		System.out.println(a.concat(c)); //concatenates the string
+		System.out.println(b.replace("t", "T")); //replaces the character in the string
+		String results [] = a.split(" "); //splits the text
+		for(String r: results) {
+			System.out.print(r);
+		}
+		System.out.println(b.equals(c)); //compares if they are exactly alike
+		
 	
 	
 	}
