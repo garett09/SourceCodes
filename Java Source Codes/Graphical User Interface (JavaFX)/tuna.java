@@ -20,5 +20,5 @@ public class tuna extends JFrame {
 		item1.setToolTipText("Gonna show up on hover");
 		add(item1);
 	}
-
+//ADDED A NOTE
 }
