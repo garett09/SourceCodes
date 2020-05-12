@@ -368,7 +368,7 @@ div#sea {
 }
 
 .step-4 .icons .row span:nth-child(even), .step-3 .icons .row span:nth-child(even) {
-  animation-duration: 0.7s;
+  animation-duration: 1.0s; 
 }
 
 @keyframes neon {
