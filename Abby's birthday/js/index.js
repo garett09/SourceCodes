@@ -21,10 +21,10 @@ particles = [],
 // starting hue
 hue = 120,
 // when launching fireworks with a click, too many get launched at once without a limiter, one launch per 5 loop ticks
-limiterTotal = 5,
+limiterTotal = 40,
 limiterTick = 0,
 // this will time the auto launches of fireworks, one launch per 80 loop ticks
-timerTotal = 80,
+timerTotal = 10,
 timerTick = 0,
 mousedown = false,
 // mouse x coordinate,
