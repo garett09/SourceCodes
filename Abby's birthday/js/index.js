@@ -49,7 +49,9 @@ function calculateDistance(p1x, p1y, p2x, p2y) {
   yDistance = p1y - p2y;
   return Math.sqrt(Math.pow(xDistance, 2) + Math.pow(yDistance, 2));
 }
-
+//some random comment 
+//again some random comment
+//test
 // create firework
 function Firework(sx, sy, tx, ty) {
   // actual coordinates
