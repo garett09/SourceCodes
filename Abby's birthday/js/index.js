@@ -301,6 +301,6 @@ function reveal() {
   //ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
   document.querySelector('#video').appendChild(ifrm);
-  picture-in-picture" allowfullscreen";
+  
 }
 
