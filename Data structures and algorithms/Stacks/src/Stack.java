@@ -6,6 +6,7 @@ public class Stack {
 	// new()
 	Stack(int size) {
 		container = new int[size];
+		top =-1;
 	}
 
 	// clear
