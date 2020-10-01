@@ -5,7 +5,7 @@ public class Stack {
 	// new()
 	Stack(int size) {
 		container = new int[size];
-		top =-1;
+		top = -1;
 	}
 
 	// clear
@@ -13,7 +13,7 @@ public class Stack {
 		top = -1;
 	}
 
-	//check if stack is empty
+	// check if stack is empty
 	boolean isEmpty() {
 		if (top == -1) {
 			return true;
@@ -21,31 +21,31 @@ public class Stack {
 			return false;
 		}
 	}
-	
-	//check if stack is full
+
+	// check if stack is full
 	boolean isFull() {
-		if (top==container.length-1) {
+		if (top == container.length - 1) {
 			return true;
-		}else {
+		} else {
 			return false;
 		}
 	}
-	
-	//pushing
-	
+
+	// pushing
+
 	void push(int item) {
 		top++;
 		container[top] = item;
 	}
-	
-	//popping an item from the stack
+
+	// popping an item from the stack
 	int pop() {
 		int temp = container[top];
 		top--;
 		return temp;
 	}
-	
-	//peek
+
+	// peek
 	int peek() {
 		return container[top];
 	}
