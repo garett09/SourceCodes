@@ -2,31 +2,23 @@
 public class Test {
 
 	public static void main(String[] args) {
-		String str = "Hello 2ISA!";
-		char[]tokens = str.toCharArray();
-		//Stack stack= new Stack (25);
-		StackGeneric<Character> stack = new StackGeneric<>(20);
-		for(Character c: tokens) {
-			stack.push(c);
-		}
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
-		System.out.println(stack.pop());
+		StackGeneric <Student> students = new StackGeneric<>(10);
 		
-		//System.out.println(stack.peek());
-		//System.out.println(stack.isEmpty());
-		//System.out.println(stack.isFull());
-	
+		Student s1 = new Student ("Juan", "Dela Cruz", 50);
+		Student s2 = new Student ("Adrian", "Sian", 20);
+		Student s3 = new Student ("Abby", "Chua", 22);
+		Student s4 = new Student ("Ed", "Nacion", 19);
+		
+		students.push(s1);
+		students.push(s2);
+		students.push(s3);
+		students.push(s4);
+		
+		System.out.println(students.pop().fname);
+		System.out.println(students.pop().fname);
+		System.out.println(students.pop().fname);
+		System.out.println(students.pop().fname);
+
 	}
 
 }
-
-
