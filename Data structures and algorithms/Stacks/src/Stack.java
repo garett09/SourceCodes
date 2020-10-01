@@ -30,4 +30,23 @@ public class Stack {
 			return false;
 		}
 	}
+	
+	//pushing
+	
+	void push(int item) {
+		top++;
+		container[top] = item;
+	}
+	
+	//popping an item from the stack
+	int pop() {
+		int temp = container[top];
+		top--;
+		return temp;
+	}
+	
+	//peek
+	int peek() {
+		return container[top];
+	}
 }
