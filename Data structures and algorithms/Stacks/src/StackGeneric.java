@@ -1,10 +1,10 @@
-public class Stack {
-	int[] container;
+public class StackGeneric<T> {
+	T[] container;
 	int top;
 
 	// new()
-	Stack(int size) {
-		container = new int[size];
+	StackGeneric(int size) {
+		container = (T[]) new Object[size];
 		top =-1;
 	}
 
@@ -33,20 +33,20 @@ public class Stack {
 	
 	//pushing
 	
-	void push(int item) {
+	void push(T item) {
 		top++;
 		container[top] = item;
 	}
 	
 	//popping an item from the stack
-	int pop() {
-		int temp = container[top];
+	T pop() {
+		T temp = container[top];
 		top--;
 		return temp;
 	}
 	
 	//peek
-	int peek() {
+	T peek() {
 		return container[top];
 	}
 }

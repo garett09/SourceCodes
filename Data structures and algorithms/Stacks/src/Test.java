@@ -2,16 +2,15 @@
 public class Test {
 
 	public static void main(String[] args) {
-		Stack stack= new Stack (25);
-		stack.push(1);
-		stack.push(2);
-		stack.push(3);
-		stack.push(4);
-		stack.push(5);
-		stack.push(6);
-		stack.push(7);
-		stack.push(8);
-		stack.push(9);
+		String str = "Hello 2ISA!";
+		char[]tokens = str.toCharArray();
+		//Stack stack= new Stack (25);
+		StackGeneric<Character> stack = new StackGeneric<>(20);
+		for(Character c: tokens) {
+			stack.push(c);
+		}
+		System.out.println(stack.pop());
+		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
 		System.out.println(stack.pop());
