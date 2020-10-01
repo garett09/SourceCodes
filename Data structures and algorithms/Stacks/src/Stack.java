@@ -12,4 +12,13 @@ public class Stack {
 	void clear() {
 		top = -1;
 	}
+
+	//check if stack is empty
+	boolean isEmpty() {
+		if (top == -1) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 }
