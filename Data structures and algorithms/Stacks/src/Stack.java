@@ -21,4 +21,13 @@ public class Stack {
 			return false;
 		}
 	}
+	
+	//check if stack is full
+	boolean isFull() {
+		if (top==container.length-1) {
+			return true;
+		}else {
+			return false;
+		}
+	}
 }
