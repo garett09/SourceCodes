@@ -13,7 +13,13 @@ public class Runner {
 		
 		q.enQueue(11);
 		q.enQueue(15);
+		
+		q.enQueue(69);
+		q.enQueue(81);
+		
 		q.show();
+		
+		System.out.println("Size " + q.getSize());
 	}
 
 }
