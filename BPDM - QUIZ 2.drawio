@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T14:47:40.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="0aYRdE-MZ-SgXRYLIgCx" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T14:52:13.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="eYKu7YjCQsrfC5z0u300" version="13.7.3" type="github">
   <diagram id="PXS0NY4B-GVXAa3nCqci" name="Page-1">
     <mxGraphModel dx="1673" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -104,9 +104,6 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="590" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-4" target="4WY01Fpy8LC-hrsZ4pMZ-2">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Employers can opt to use RT-PCR&lt;/b&gt; for testing samples of baseline that can be looked to find any evidence of asymptomatic transmitters.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="555" width="160" height="70" as="geometry" />
