@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T13:52:29.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="LRfdWhqLR9iiFt0a1iO5" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T14:47:40.957Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="0aYRdE-MZ-SgXRYLIgCx" version="13.7.3" type="github">
   <diagram id="PXS0NY4B-GVXAa3nCqci" name="Page-1">
-    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,9 +88,6 @@
         </mxCell>
         <mxCell id="eIwWV8g3B-skY2LskUsc-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;All the asymptomatic employees and workers can now go to work without any worries of COVID-19. &lt;b&gt;But they can be tested by their employers.&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="671" y="460" width="161" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-17" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Output&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="850" y="485" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="eIwWV8g3B-skY2LskUsc-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Screening of Returning Employees and Workers&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="40" width="280" height="60" as="geometry" />
@@ -194,12 +191,6 @@
         <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-28" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Employees who test IgM positive but IgG negative on the 1st test &lt;/b&gt;shall be&lt;br&gt;isolated for 14 days and repeat testing on the 14th day.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="450" y="815" width="175" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-29" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Input&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="570.5" y="530" width="40" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-30" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Process&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="340" y="530" width="40" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-31">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="786.0000000000002" y="930" as="targetPoint" />
@@ -245,6 +236,9 @@
         </mxCell>
         <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-47" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="120" y="1050" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-48" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px&quot;&gt;END OF PROCESS&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="310" y="903.75" width="80" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
