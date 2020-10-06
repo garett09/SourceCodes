@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-10-06T12:14:41.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="YBi9yrCRJ2uknFi2fQaV" version="13.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-06T13:52:29.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="LRfdWhqLR9iiFt0a1iO5" version="13.7.3" type="github">
   <diagram id="PXS0NY4B-GVXAa3nCqci" name="Page-1">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="950" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
         <mxCell id="hrsmdZEJyn_AZfHyWujk-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Process&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="10" y="260" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="hrsmdZEJyn_AZfHyWujk-7">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hrsmdZEJyn_AZfHyWujk-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="270" as="targetPoint" />
             <Array as="points">
@@ -34,7 +34,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hrsmdZEJyn_AZfHyWujk-7" target="eIwWV8g3B-skY2LskUsc-7">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="hrsmdZEJyn_AZfHyWujk-7" target="eIwWV8g3B-skY2LskUsc-7" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="330" />
@@ -46,57 +46,205 @@
         <mxCell id="hrsmdZEJyn_AZfHyWujk-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;The employees and workers should be screened for symptoms of COVID-19&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="240" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIwWV8g3B-skY2LskUsc-2">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eIwWV8g3B-skY2LskUsc-2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="440" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px&quot;&gt;This includes fever,cough,cold and other respiratory problems and/or relevant travel or exposure within 14 days&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-2" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px&quot;&gt;This includes fever,cough,cold and other respiratory problems and/or relevant travel or exposure within 14 days&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="240" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eIwWV8g3B-skY2LskUsc-6" target="eIwWV8g3B-skY2LskUsc-8">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="eIwWV8g3B-skY2LskUsc-6" target="eIwWV8g3B-skY2LskUsc-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px&quot;&gt;Employees who &lt;b&gt;are &lt;/b&gt;symptomatic with relevant history travel/exposure should not be allowed to physically return to work&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-6" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 11px&quot;&gt;Employees who &lt;b&gt;are &lt;/b&gt;symptomatic with relevant history travel/exposure &lt;b&gt;should not be allowed to physically return to work&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="440" y="237.5" width="170" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;If no employees or workers are asymptomatic within the last 14 days, then they can be cleared to physically&amp;nbsp;return to work&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="290" y="400" width="165" height="60" as="geometry" />
+        <mxCell id="eIwWV8g3B-skY2LskUsc-7" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;If no employees or workers are asymptomatic within the last 14 days, then they can be cleared to physically&amp;nbsp;return to work&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" parent="1" vertex="1">
+          <mxGeometry x="290" y="370" width="165" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eIwWV8g3B-skY2LskUsc-8" target="eIwWV8g3B-skY2LskUsc-12">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eIwWV8g3B-skY2LskUsc-8" target="eIwWV8g3B-skY2LskUsc-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px&quot;&gt;Employees who &lt;b&gt;were&amp;nbsp;&lt;/b&gt;symptomatic with relevant history travel/exposure within the last 14 days&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-8" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px&quot;&gt;Employees who &lt;b&gt;were&amp;nbsp;&lt;/b&gt;symptomatic with relevant history travel/exposure within the last 14 days&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="671" y="237.5" width="170" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eIwWV8g3B-skY2LskUsc-12">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="eIwWV8g3B-skY2LskUsc-12" edge="1" target="eIwWV8g3B-skY2LskUsc-16">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="756.0000000000002" y="450.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;They must present a Certificate of Quarantine Completion that is issued by the local office or step-down care facility&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-12" value="&lt;font face=&quot;Times New Roman&quot;&gt;They must present a Certificate of Quarantine Completion that is issued by the local office or step-down care facility&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="671" y="340" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eIwWV8g3B-skY2LskUsc-16" target="eIwWV8g3B-skY2LskUsc-20">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eIwWV8g3B-skY2LskUsc-16" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="756" y="610" as="targetPoint" />
+            <mxPoint x="671" y="590" as="targetPoint" />
             <mxPoint x="756" y="530" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="756" y="590" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;All the cleared employees and workers can now go to work without any worries of COVID-19&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="679" y="450" width="154" height="70" as="geometry" />
+        <mxCell id="eIwWV8g3B-skY2LskUsc-16" value="&lt;font face=&quot;Times New Roman&quot;&gt;All the asymptomatic employees and workers can now go to work without any worries of COVID-19. &lt;b&gt;But they can be tested by their employers.&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="671" y="460" width="161" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-17" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Output&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="620" y="475" width="40" height="20" as="geometry" />
+        <mxCell id="eIwWV8g3B-skY2LskUsc-17" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Output&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="850" y="485" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Screening of Returning Employees and Workers&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="eIwWV8g3B-skY2LskUsc-18" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px&quot;&gt;&lt;b&gt;Screening of Returning Employees and Workers&amp;nbsp;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="40" width="280" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eIwWV8g3B-skY2LskUsc-20" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="551" y="560" width="120" height="60" as="geometry" />
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-2" value="&lt;div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;Employees of companies should notify their employer if they have returned from work after being exposed by COVID-19 (e.g. front liners)&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="550" width="161" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-4" target="4WY01Fpy8LC-hrsZ4pMZ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-4" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Employers can opt to use RT-PCR&lt;/b&gt; for testing samples of baseline that can be looked to find any evidence of asymptomatic transmitters.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="555" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-6" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;If tested positive&lt;/b&gt;, the returning employee/worker is a COVID-19 case and will&lt;br&gt;be isolated and referred accordingly for appropriate management.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="555" width="180" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-7" value="&lt;span id=&quot;docs-internal-guid-5534675c-7fff-ef3a-bbd4-9b47796d8a71&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height: 1.2 ; margin-top: 0pt ; margin-bottom: 0pt&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;times new roman&amp;#34; ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;&lt;font style=&quot;font-size: 24px&quot;&gt;Testing of Asymptomatic Returning Employees&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12pt ; font-family: &amp;#34;times new roman&amp;#34; ; background-color: transparent ; font-weight: 700 ; vertical-align: baseline&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="455" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-8" value="&lt;b&gt;Alternatively&lt;/b&gt;, they can test using the FDA-approved rapid antibody tests." style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="820" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-10" target="4WY01Fpy8LC-hrsZ4pMZ-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-10" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;If found negative,&lt;/b&gt; returning employee and worker can continue working with&lt;br&gt;usual precautions.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="75" y="670" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-13" target="4WY01Fpy8LC-hrsZ4pMZ-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-13" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;However, if the patient tested negative then developed symptoms,&lt;/b&gt;&amp;nbsp;the employee must be&lt;br&gt;tested accordingly based on Department Memorandum 2020-0180.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="670" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-15" target="4WY01Fpy8LC-hrsZ4pMZ-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-15" value="&lt;font face=&quot;Times New Roman&quot;&gt;All close contacts of the patient must be tested and isolated accordingly&amp;nbsp;based on Department&lt;br/&gt;Memorandum 2020-0180.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="675" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-16" target="4WY01Fpy8LC-hrsZ4pMZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="1030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="940" y="710" />
+              <mxPoint x="940" y="1040" />
+              <mxPoint x="350" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-16" value="&lt;font style=&quot;font-size: 11px&quot; face=&quot;Times New Roman&quot;&gt;All the employers must report the results to the DOH&amp;nbsp;in accordance with Administrative&lt;br&gt;Order No. 2020-0013 and&amp;nbsp; Administrative Order No. 2020-0014&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="730" y="675" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-21" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-4" target="4WY01Fpy8LC-hrsZ4pMZ-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="670" as="sourcePoint" />
+            <mxPoint x="20" y="660" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="370" y="660" />
+              <mxPoint x="30" y="660" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-26" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 12px&quot;&gt;&lt;br&gt;&lt;br&gt;Employees who test &lt;b&gt;IgM negative&lt;/b&gt; and &lt;b&gt;IgG negative&lt;/b&gt;, or &lt;b&gt;IgG positive&lt;/b&gt;&lt;br&gt;regardless of IgM results may continue to work.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="815" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="852.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-28" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;Employees who test IgM positive but IgG negative on the 1st test &lt;/b&gt;shall be&lt;br&gt;isolated for 14 days and repeat testing on the 14th day.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="450" y="815" width="175" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-29" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Input&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="570.5" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-30" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Process&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="530" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="786.0000000000002" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-31" value="&lt;div&gt;&lt;b&gt;&lt;span style=&quot;font-size: 11px ; font-family: &amp;#34;times new roman&amp;#34;&quot;&gt;If results are still IgM&lt;/span&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;div&gt;&lt;b&gt;positive and IgG negative,&lt;/b&gt; extend quarantine by seven-day increments and&lt;/div&gt;&lt;div&gt;&lt;span&gt;repeat testing&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;align=center;" vertex="1" parent="1">
+          <mxGeometry x="692" y="822.5" width="188" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-34" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;If the patient&#39;s&amp;nbsp;result of IgM positive but IgG negative for two consecutive&lt;/b&gt;&lt;br&gt;retesting&amp;nbsp;after the 1st 14 day period, consider potential false positives and&lt;br&gt;confer with infectious diseases specialists.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="676" y="930" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="965" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-36" value="&lt;font face=&quot;Times New Roman&quot;&gt;Employers shall submit to the email the results of the&lt;br&gt;rapid antibody tests&amp;nbsp;among the sample representatives.&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="927.5" width="165" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="966.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-39" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;br&gt;&lt;br&gt;Cost of the test not covered by PhilHealth and&amp;nbsp; shall be payed by the employer.&lt;br&gt;&lt;br&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="290" y="930" width="120" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4WY01Fpy8LC-hrsZ4pMZ-41">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-41" value="&lt;font face=&quot;Times New Roman&quot;&gt;Employees and Employers are now COVID-19 free but must still follow strict rules from the government to wear face mask and face shield&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="90" y="923.75" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-45" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;Output&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="30" y="950" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4WY01Fpy8LC-hrsZ4pMZ-47" value="&lt;b&gt;END&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1050" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
