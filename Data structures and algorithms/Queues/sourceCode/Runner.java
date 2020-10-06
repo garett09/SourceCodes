@@ -2,29 +2,19 @@
 public class Runner {
 
 	public static void main(String[] args) {
-		Queue q = new Queue ();
-//		q.enQueue(6);
-		q.enQueue(3);
-		q.enQueue(7);
-		q.enQueue(10);
-		q.enQueue(69);	
-		q.enQueue(69);
-		
-		q.deQueue();
-		q.deQueue();
-//		
-//		q.enQueue(11);
-//		q.enQueue(15);
-//		
-//		q.enQueue(69);
-//		q.enQueue(81);
-		
-		System.out.println(q.isFull());
-		
-		System.out.println("Size " + q.getSize());
-		q.show();
-		
-		
+		QueueGeneric<Virus> viruses = new QueueGeneric <>(10);
+
+		Virus v1 = new Virus("Corona Virus", 3);
+		Virus v2 = new Virus("Ed Virus", 2);
+		Virus v3 = new Virus("Aaron Virus", 7);
+		Virus v4 = new Virus("Carl Virus", 6);
+
+		viruses.enqueue(v1);
+		viruses.enqueue(v2);
+		viruses.enqueue(v3);
+		viruses.enqueue(v4);
+		System.out.println(viruses.peek());
+
 	}
 
 }
