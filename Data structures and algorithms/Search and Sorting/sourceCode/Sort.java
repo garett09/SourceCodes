@@ -1,5 +1,6 @@
 
 public class Sort {
+	//INSERTION SORT
 	void insertionSort(int[] list) {
 		int i, j, key, temp; // it starts at index 1 because the very first element is sorted since it does
 								// not need to compare
@@ -14,7 +15,7 @@ public class Sort {
 			}
 		}
 	}
-
+	//SELECTION SORT
 	void selectionSort(int[] list) {
 		int i, j, minValue, minIndex, temp = 0;
 		for (i = 0; i < list.length; i++) {
@@ -35,7 +36,7 @@ public class Sort {
 		}
 
 	}
-
+	//MERGE SORT
 	// Breaks down the array to single or null elements in array.
 	public static int[] mergeSort(int[] array) {
 
@@ -138,6 +139,7 @@ public class Sort {
 
 	}
 
+	//QUICKSORT
 	/*
 	 * This function takes last element as pivot, places the pivot element at its
 	 * correct position in sorted array, and places all smaller (smaller than pivot)
@@ -165,7 +167,7 @@ public class Sort {
 
 		return i + 1;
 	}
-
+	
 	/*
 	 * The main function that implements QuickSort() arr[] --> Array to be sorted,
 	 * low --> Starting index, high --> Ending index
@@ -183,7 +185,7 @@ public class Sort {
 			sort(arr, pi + 1, high);
 		}
 	}
-	
+	//BUBBLE SORT
 	void bubbleSort(int arr[]) 
     { 
         int n = arr.length; 
