@@ -9,7 +9,7 @@ public class Test {
 		list.addAtStart("four");
 		list.addAtStart("seven");
 		list.addAtStart("eleven");
-		
+
 		list.addAt(5, "sixty-nine");
 		list.deleteAt(1);
 		list.display();
