@@ -6,6 +6,9 @@ public class Test {
 		list.addAtEnd("one");
 		list.addAtEnd("eight");
 		list.addAtEnd("three");
+		list.addAtStart("four");
+		list.addAtStart("seven");
+		list.addAtStart("eleven");
 		list.display();
 		
 	}
