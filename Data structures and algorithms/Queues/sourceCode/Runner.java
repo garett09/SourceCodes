@@ -13,7 +13,7 @@ public class Runner {
 		viruses.enqueue(v2);
 		viruses.enqueue(v3);
 		viruses.enqueue(v4);
-		System.out.println(viruses.peek());
+		System.out.println(viruses.peek().name + " " + viruses.peek().size);
 
 	}
 
