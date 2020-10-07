@@ -2,8 +2,10 @@
 public class Test {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		LinkedList<String> list = new LinkedList <>();
+		list.addAtEnd("one");
+		list.addAtEnd("eight");
+		
 	}
 
 }

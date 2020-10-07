@@ -15,4 +15,17 @@ public class LinkedList<T> {
 		}
 	
 	}
+	
+	void addAtEnd(T data) {
+		Node nodeObj =  new Node (data);
+		if(isEmpty()) {
+			head = nodeObj;
+		}else {
+			Node iNode; //temporary node object
+			for(iNode = head; iNode != null; iNode=iNode.next) {
+			}
+			iNode.next = nodeObj;	
+		}
+		
+	}
 }
