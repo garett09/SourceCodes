@@ -26,6 +26,34 @@ public class LinkedList<T> {
 		}
 	}
 	
+	int getSize() {
+		int size =0;
+		for(Node iNode = head; iNode != null; iNode = iNode.next) {
+			size++;
+		}
+		return size;
+	}
+	
+	void addAt (int index, T data) {
+		Node nodeObj = new Node (data);
+		if(index==0) {
+			addAtStart(data);
+			return;
+		}else {
+		Node iNode = head;
+		for(int i=0; i<getSize(); i++) {
+			if(i==index) {
+				nodeObj.next =  iNode.next;
+				iNode.next =  nodeObj;
+				break;
+			}
+			iNode = iNode.next;
+		}
+		
+	}
+}
+	
+	
 	void addAtEnd(T data) {
 		Node nodeObj =  new Node (data);
 		if(isEmpty()) {
