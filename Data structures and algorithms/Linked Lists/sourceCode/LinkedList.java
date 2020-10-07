@@ -66,6 +66,16 @@ public class LinkedList<T> {
 		}
 		
 	}
+	
+	void deleteAt(int index) {
+		Node iNode = head;
+		for (int i = 0; i<getSize();i++) {
+			if (i==index-1) {
+				iNode.next = iNode.next.next;
+			}
+			iNode=iNode.next;
+		}
+	}
 	void display() {
 		for(Node iNode = head; iNode != null; iNode=iNode.next) {
 			System.out.println(iNode.data);

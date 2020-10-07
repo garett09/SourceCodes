@@ -11,6 +11,7 @@ public class Test {
 		list.addAtStart("eleven");
 		
 		list.addAt(5, "sixty-nine");
+		list.deleteAt(1);
 		list.display();
 
 	}
