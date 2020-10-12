@@ -3,17 +3,19 @@ public class Test {
 
 	public static void main(String[] args) {
 		LinkedList<String> list = new LinkedList<>();
-		list.addAtEnd("one");
-		list.addAtEnd("eight");
-		list.addAtEnd("three");
-		list.addAtStart("four");
-		list.addAtStart("seven");
-		list.addAtStart("eleven");
-
-		list.addAt(5, "sixty-nine");
-		list.deleteAt(1);
+		list.addAtStart("one");
+		list.addAtStart("two");
+		list.addAtStart("three");
+		
+		list.addAtEnd("four");
+		list.addAtEnd("five");
+ 
+		list.addAt(2, "six");
+	//	list.deleteAt(3);
+		list.deleteAt(0);
 		list.display();
 
 	}
 
 }
+ 

@@ -26,23 +26,23 @@ public class LinkedList<T> {
 		}
 	}
 
-	int getSize() {
-		int size = 0;
+	private int getSize() {
+		int size = 0;	
 		for (Node iNode = head; iNode != null; iNode = iNode.next) {
 			size++;
 		}
 		return size;
 	}
 
-	void addAt(int index, T data) {
+	void addAt(int position, T data) {
 		Node nodeObj = new Node(data);
-		if (index == 0) {
+		if (position == 0) {
 			addAtStart(data);
 			return;
 		} else {
 			Node iNode = head;
 			for (int i = 0; i < getSize(); i++) {
-				if (i == index) {
+				if (i == position -1 ) {
 					nodeObj.next = iNode.next;
 					iNode.next = nodeObj;
 					break;
@@ -66,14 +66,23 @@ public class LinkedList<T> {
 
 	}
 
-	void deleteAt(int index) {
+	void deleteAt(int position) {
 		Node iNode = head;
+		
+		if(position == 0) {
+			deleteAtHead();
+			return;
+		}
 		for (int i = 0; i < getSize(); i++) {
-			if (i == index - 1) {
+			if (i == position - 1) {
 				iNode.next = iNode.next.next;
-			}
+			}	
 			iNode = iNode.next;
 		}
+	}
+	
+	void deleteAtHead(){
+		head = head.next;
 	}
 
 	void display() {
