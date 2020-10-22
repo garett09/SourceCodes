@@ -99,6 +99,7 @@ public class DoubleLinkedList<T> {
 	}
 
 	void deleteAtTail() {
+		
 		tail = tail.prev;
 		tail.next = null;
 	}
