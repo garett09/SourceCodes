@@ -11,22 +11,24 @@ public class BTLinkedList<T> {
 			return true;
 		return false;
 	}
-
+	//add root
 	Node addRoot(T data) {
 		return new Node(data);
 	}
-
+	
+	//add left
 	void addLeft(T data, Node pNode) {
 		Node nodeObj = new Node(data);
 		pNode.left = nodeObj;
 
 	}
-
+	// add right
 	void addRight(T data, Node pNode) {
 		Node nodeObj = new Node(data);
 		pNode.right = nodeObj;
 	}
-
+	
+	//preorder traversal
 	void preOrderTraversal(Node root) {
 		if (root == null)
 			return;
