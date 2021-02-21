@@ -1,0 +1,138 @@
+<html>
+  <head>
+    <title>Schedule and Table</title>
+  </head>
+  <body>
+    <h2>HTML Table</h2>
+
+    <table class="sample" border="1">
+      <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+      </tr>
+      <tr>
+        <td>The Garett Show</td>
+        <td>Adrian Sian</td>
+        <td>Philippines</td>
+      </tr>
+
+      <tr>
+        <td>The Ed Show</td>
+        <td>Eduardo Nacion</td>
+        <td>Philippines</td>
+      </tr>
+
+      <tr>
+        <td>The Annie Show</td>
+        <td>Annie Icban</td>
+        <td>Poland</td>
+      </tr>
+
+      <tr>
+        <td>The Cath Show</td>
+        <td>Catherine Bautista</td>
+        <td>Germany</td>
+      </tr>
+
+      <tr>
+        <td>The Ong Show</td>
+        <td>Mylene Ong</td>
+        <td>New Zealand</td>
+      </tr>
+
+      <tr>
+        <td>The Nikka Show</td>
+        <td>Nikka Francisco</td>
+        <td>Guam</td>
+      </tr>
+
+      <tr>
+        <td>The Mayor Show</td>
+        <td>Aaron Mayor</td>
+        <td>USA</td>
+      </tr>
+
+      <table
+        class="schedule"
+        border="1"
+        cellspacing="3"
+        cellpadding="5"
+        summary="table contains the nightly KPAF program schedule aired
+ from Bismarck, North Dakota. Program times are laid out in
+ thirty-minute increments from 6:00 p.m. to 10:00 p.m., Monday
+ through Sunday night."
+      >
+        <!--HINDI SUPPORTED NG HTML5 ANG SUMMARY TY-->
+        
+        <caption>
+          All times listed in Philippine standard time
+        </caption>
+
+        <colgroup>
+          <col class="firstCol" />
+          <col class="dayCols" span="7" />
+        </colgroup>
+
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+          <th>Saturday</th>
+          <th>Sunday</th>
+        </tr>
+
+        <tbody valign="top" align="left">
+          <tr>
+            <th>6:00</th>
+            <td colspan="7">National News</td>
+          </tr>
+          <tr>
+            <th>6:30</th>
+            <td colspan="7">Local News</td>
+          </tr>
+          <tr>
+            <th>7:00</th>
+            <td rowspan="2">Opera Fest</td>
+            <td rowspan="">Radio U</td>
+            <td rowspan="2">Science Week</td>
+            <td rowspan="2">The Living World</td>
+            <td>Word Play</td>
+            <td>Agri-Week</td>
+            <td rowspan="2">Folk Fest</td>
+          </tr>
+          <tr>
+            <th>7:30</th>
+            <td>Brain Stew</td>
+            <td>Bismarck Forum</td>
+          </tr>
+          <tr>
+            <th>8:00</th>
+            <td rowspan="4" colspan="4">The Classical Music Connection</td>
+            <td>Old Time Radio</td>
+            <td rowspan="4">Saturday Night Jazz</td>
+            <td rowspan="4">The Indie Connection</td>
+          </tr>
+          <tr>
+            <th>8:30</th>
+            <td>The Inner Mind</td>
+          </tr>
+          <tr>
+            <th>9:00</th>
+            <td rowspan="2">Open Mike Nite</td>
+          </tr>
+          <tr>
+            <th>9:30</th>
+          </tr>
+          <tr>
+            <th>10:00</th>
+            <td colspan="7">World News Feeds</td>
+          </tr>
+        </tbody>
+      </table>
+    </table>
+  </body>
+</html>
