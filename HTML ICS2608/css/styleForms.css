@@ -1,0 +1,6 @@
+body {background-color: antiquewhite;}
+
+label.blocklabel {display: block; position: relative; margin: 12px 0px;}
+label.blocklabel input {position:absolute; left: 150px;}
+
+#lastName, #firstName, #inqCon {width: 15em;}

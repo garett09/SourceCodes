@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- FORMS 
+        AUTHOR: ADRIAN GARETT SIAN
+        DATE: FEB 22, 2021
+        -->
+
+    <link rel="stylesheet" href="css/styleForms.css " />
+  </head>
+  <body>
+    <h1><enter>Contact us Form</enter></h1>
+
+    <form name="contacusform" id="contacusform">
+      <fieldset id="contact">
+        <legend>Personal Information</legend>
+        <label class="blocklabel">
+          First Name
+          <input type="text" id="firstName" name="firstName" />
+        </label>
+        <label class="blocklabel">
+          Last Name
+          <input type="text" id="lastName" name="lastName" />
+        </label>
+        <label class="blocklabel">
+          Are you an existing customer?
+          <select name="Customer">
+            <option value="A">Yes</option>
+            <option value="B">No</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset id="concerns">
+        <legend>Inquiries/Concerns</legend>
+        <input type="text" id="inqCon" name="inqCon" />
+      </fieldset>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Widgets for crypto</title>
+    <!-- FORMS 
+        AUTHOR: ADRIAN GARETT SIAN
+        DATE: FEB 22, 2021
+        -->
+  </head>
+
+  <h1>Crypto market price</h1>
+
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">crypto</span></a> by TradingView</div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-quotes.js" async>
+    {
+    "width": "1920px",
+    "height": "1080px",
+    "symbolsGroups": [
+      {
+        "name": "crypto",
+        "symbols": [
+          {
+            "name": "BITBAY:BTCUSDT",
+            "displayName": "Bitcoin"
+          },
+          {
+            "name": "KRAKEN:ETHUSDT",
+            "displayName": "Etherium"
+          },
+          {
+            "name": "KRAKEN:ADAUSDT",
+            "displayName": "Cardano"
+          },
+          {
+            "name": "BINANCE:LTCUSDT",
+            "displayName": "Litecoin"
+          },
+          {
+            "name": "BINANCE:DOTUSDT",
+            "displayName": "Polkadot"
+          },
+          {
+            "name": "BNB/BINANCE:BNBUSDT"
+          },
+          {
+            "name": "BINANCE:XRPUSDT"
+          },
+          {
+            "name": "BINANCE:RENUSDT"
+          }
+        ]
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "dark",
+    "isTransparent": false,
+    "locale": "en"
+  }
+    </script>
+  </div>
+  <!-- TradingView Widget END -->
+</html>
