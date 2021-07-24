@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Booking - AFK Hotel</title>
+      <link rel="icon" href="img/icon.png">
+      <link rel="stylesheet" href="css/style.css" >
+      <link rel="stylesheet" href="css/contactus.css" >
+      <!-- Bootstrap LINKS -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" 
+         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" 
+         crossorigin="anonymous">
+      <script
+         src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+         crossorigin="anonymous"
+         ></script>
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+         integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+         crossorigin="anonymous"
+         ></script>
+      <!--angular js-->
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+      <script src="js/forms.js"></script>
+      <script src="js/validation.js"></script>
+      <!-- Font Awesome -->
+      <script
+         src="https://kit.fontawesome.com/2ddbad06a5.js"
+         crossorigin="anonymous"></script>
+   </head>
+   <body>
+      <header>
+         <div class="container-fluid">
+            <a href= "index.html"><img src="img/LOGO TRAN.png" alt="LOGO" width="100px" height="100px"></a>
+            <a class = "title-logo" href= "index.html"> AFK Hotel</a>
+            <nav class="navbar navbar-expand-lg navbar-light float-right pt-4">
+               <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+               <span class="navbar-toggler-icon pt-3"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarCollapse">
+                  <ul class="navbar-nav mx-auto">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">HOME</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="aboutus.html">ABOUT</a>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="booking.html">BOOKING</a>
+                     </li>
+                     <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SERVICES
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                           <a class="dropdown-item" href="rooms.html">Rooms</a>
+                           <a class="dropdown-item" href="facilities.html">Facilities</a>
+                           <a class="dropdown-item" href="events.html">Events</a>
+                        </div>
+                     </li>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="contactus.html">CONTACT US</a>
+                     </li>
+                  </ul>
+               </div>
+            </nav>
+         </div>
+         </div>
+      </header>
+      <div class="title">
+         <h1>
+         AFK Hotel Booking Forms
+         <h1>
+      </div>
+      <main class ="pt-5 pb-5">
+         <div class="container" ng-app="myApp" ng-controller="myCtrl">
+         <form class="needs-validation" novalidate autocomplete="off" id="registeredform" name="myForm">
+            <div class="container">
+            <div class="form-group">
+               <div class="row">
+                  <div class="col-sm-6">
+                     <label for="exampleInputEmail1">First name</label>
+                     <input
+                        type="text"
+                        class="form-control"
+                        id="firstNameForms"
+                        aria-describedby="fnameHelp"
+                        placeholder="Enter first name"
+                        ng-model="people.firstName"
+                        required
+                        />
+                     <div class="valid-feedback">
+                        Looks good bro!
+                     </div>
+                     <div class="invalid-feedback">
+                        Hey, don’t forget about this!
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <label for="lastNameForms">Last name</label>
+                     <input
+                        type="text"
+                        class="form-control"
+                        id="lastNameForms"
+                        aria-describedby="lnameHelp"
+                        placeholder="Enter last name"
+                        ng-model="people.lastName"
+                        required
+                        />
+                     <div class="valid-feedback">
+                        Good job, son.
+                     </div>
+                     <div class="invalid-feedback">
+                        Wait! You forgot this one.
+                     </div>
+                  </div>
+                  <div class="col-sm-6" ng-class="{'has-error': myForm.email.$invalid}">
+                     <label for="lastNameForms">E-mail</label>
+                     <input
+                        type="email"
+                        class="form-control"
+                        name="name"
+                        aria-describedby="emailHelp"
+                        placeholder="Enter your desired email"
+                        ng-model="people.email"
+                        required
+                        />
+                     <div class="valid-feedback">
+                        Nice email.
+                     </div>
+                     <div class="invalid-feedback">
+                        Hey, please fix email plz.
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <label for="lastNameForms">Phone number</label>
+                     <input
+                        type="number"
+                        class="form-control"
+                        id="phonenumberForms"
+                        aria-describedby="phoneHelp"
+                        placeholder="Enter your phone number"
+                        ng-model="people.phoneNumber"
+                        required
+                        />
+                     <div class="valid-feedback">
+                        Awesome job.
+                     </div>
+                     <div class="invalid-feedback">
+                        Bro, please input your cellphone number, bro.
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <label for="checkindatee">Check-in date</label>
+                     <input class="form-control" type="date" placeholder="MM/DD/YYYY" id="checkindate-input" ng-model="people.checkinDate" required>
+                     <div class="valid-feedback">
+                        Bro, galing mo.
+                     </div>
+                     <div class="invalid-feedback">
+                        Hi, you forgot this, kindly correct thx.
+                     </div>
+                  </div>
+                  <div class="col-sm-6">
+                     <label for="checkoutDatee">Check-out date</label>
+                     <input class="form-control" type="date" placeholder="MM/DD/YYYY" id="checkout-date-input" ng-model="people.checkoutDate" required>
+                     <div class="valid-feedback">
+                        Galing dude pare chong.
+                     </div>
+                     <div class="invalid-feedback">
+                        Hoy, kindly change to your checkout date as you forgot to change.
+                     </div>
+                  </div>
+               </div>
+         </form>
+         &nbsp;
+         <h3>Select your room</h3>
+         <table class="table table-hover table-sm table-responsive-sm">
+         <thead>
+         <tr>
+         <th scope="col">Select</th>
+         <th scope="col">Room Name</th>
+         <th scope="col">Description</th>
+         <th scope="col">Guests allowed</th>
+         <th scope="col">Price</th>
+         </tr>
+         </thead>
+         <tbody>
+         <tr ng-repeat="room in roomsRegistered">
+         <td><input type="checkbox" ng-checked="all" ng-model="room.selected" ng-change ="addtocart(room)"></td>
+         <td>{{ room.roomName}}</td>				
+         <td>{{room.description}}</td>
+         <td>{{room. maxNumberofGuests}}</td>
+         <td>₱{{ room.roomPrice}}</td>
+         </tr>
+         </tbody>
+         <tfoot>
+         <tr>
+         <td></td>
+         <td></td>
+         <td></td>
+         <td class = "font-weight-bold">Total</td>
+         <td class = "font-weight-bold">₱{{people.totalPrice}}</td>
+         </tr>
+         </tfoot>
+         </table>
+         </div>
+         <button class="float-right Animation1" type="submit" id="btnsubmit" ng-click="save()">Submit</button>
+         <button class="btn btn-danger float-right mr-5 Animation1" type="reset" id="btnsubmit" onclick="return confirm_reset();">Clear</button>
+      </main>
+      <footer>
+         <div class="page-footer3 col-sm-12 font-small indigo">
+            <div class="container5">
+               <div class="row mx-auto">
+                  <div class="btn-group-horizontal mx-auto ">
+                     <div class="mx-5 flex-center">
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://facebook.com/AFK-Hotel-108336021449130/" target="_blank">
+                        <i class="fab fa-facebook-f fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic" href="https://twitter.com/afkhotel" target="_blank">
+                        <i class="fab fa-twitter fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic" href="https://instagram.com/afkhotel" target="_blank">
+                        <i class="fab fa-instagram fa-lg white-text mr-4"> </i>
+                        </a>
+                        <!--Email-->
+                        <a class="pin-ic" href="afkhotel@gmail.com" target="_blank">
+                        <i class="fas fa-envelope fa-lg white-text"></i>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <br>
+               <br>
+               <div class = "citation-footer" style="text-align:center; font-family: poppins; font-size: 18px;">
+                  <a href="citation.html" class = "citation-footer"> Citation</a>
+               </div>
+               <!-- Copyright -->
+               <div class="footer-copyright text-center py-3">© 2021 AFK Hotel Developed by Sani's Babies. All Rights Reserved.</div>
+               <!-- Copyright -->
+            </div>
+         </div>
+      </footer>
+   </body>
+</html>
